@@ -1,0 +1,15 @@
+{
+  "name": "rj-firewall",
+  "version": "0.0.1",
+  "author": "rj",
+  "summary": "Modulo para a gerencia de firewall",
+  "license": "MIT Licence",
+  "source": "https://github.com/eduardodicarte/rj-firewall",
+  "project_page": "https://github.com/eduardodicarte/rj-firewall",
+  "issues_url": "https://github.com/eduardodicarte/rj-firewall/issues",
+  "dependencies": [
+    {"name":"crayfishx-firewalld","version_requirement":">= 3.1.8"}
+  ],
+  "data_provider": null
+}
+
