@@ -43,12 +43,9 @@
 # Copyright 2017 Your name here, unless otherwise noted.
 #
 class firewall {
-  contain firewall::config::services
-  contain firewall::config::ports
-
   #Configuração de serviços
-  Class['firewall::config::services'] ->
+  contain firewall::config::services
 
   #Liberação/ Bloqueio de portas
-  Class['firewall::config::ports']
+  contain firewall::config::ports
 }
